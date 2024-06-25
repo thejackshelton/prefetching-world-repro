@@ -41,3 +41,5 @@ lerna-debug.log*
 
 /dist/*
 !dist/qwik-prefetch-service-worker.js
+
+src/routes/pages

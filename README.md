@@ -1,7 +1,9 @@
 # Reproduce
 
+`$ ./generate.sh`
+
 `$ pnpm i`
 
-`$ pnpm start`
+`$ pnpm preview`
 
-See 404 error in the browser when fetching the prefetch graph file.
+Click on the `page` link before the graph finishes prefetching and see 404s thrown.
