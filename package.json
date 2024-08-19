@@ -27,8 +27,8 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "github:QwikDev/qwik-build#ad7cc99c09c59882b4569c8d7c1d02543a7051f0",
-    "@builder.io/qwik-city": "github:QwikDev/qwik-city-build#8effe19b19d9c5ff7580c8d2f27dd6b8fa5f903a",
+    "@builder.io/qwik": "1.8",
+    "@builder.io/qwik-city": "1.8",
     "@types/eslint": "^8.56.10",
     "@types/node": "^20.12.7",
     "@typescript-eslint/eslint-plugin": "^7.7.1",
@@ -38,7 +38,7 @@
     "prettier": "^3.2.5",
     "typescript": "5.4.5",
     "undici": "*",
-    "vite": "^5.2.10",
+    "vite": "^5.3",
     "vite-tsconfig-paths": "^4.2.1"
   }
 }

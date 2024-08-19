@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       '@builder.io/qwik':
-        specifier: github:QwikDev/qwik-build#ad7cc99c09c59882b4569c8d7c1d02543a7051f0
-        version: https://codeload.github.com/QwikDev/qwik-build/tar.gz/ad7cc99c09c59882b4569c8d7c1d02543a7051f0(@types/node@20.14.8)(undici@6.19.2)
+        specifier: '1.8'
+        version: 1.8.0(@types/node@20.14.8)
       '@builder.io/qwik-city':
-        specifier: github:QwikDev/qwik-city-build#8effe19b19d9c5ff7580c8d2f27dd6b8fa5f903a
-        version: https://codeload.github.com/QwikDev/qwik-city-build/tar.gz/8effe19b19d9c5ff7580c8d2f27dd6b8fa5f903a(@types/node@20.14.8)(rollup@4.18.0)
+        specifier: '1.8'
+        version: 1.8.0(@types/node@20.14.8)(rollup@4.18.0)
       '@types/eslint':
         specifier: ^8.56.10
         version: 8.56.10
@@ -42,7 +42,7 @@ importers:
         specifier: '*'
         version: 6.19.2
       vite:
-        specifier: ^5.2.10
+        specifier: ^5.3
         version: 5.3.1(@types/node@20.14.8)
       vite-tsconfig-paths:
         specifier: ^4.2.1
@@ -50,18 +50,14 @@ importers:
 
 packages:
 
-  '@builder.io/qwik-city@https://codeload.github.com/QwikDev/qwik-city-build/tar.gz/8effe19b19d9c5ff7580c8d2f27dd6b8fa5f903a':
-    resolution: {tarball: https://codeload.github.com/QwikDev/qwik-city-build/tar.gz/8effe19b19d9c5ff7580c8d2f27dd6b8fa5f903a}
-    version: 1.5.7-dev20240622232712
+  '@builder.io/qwik-city@1.8.0':
+    resolution: {integrity: sha512-3WCyKFf8E5W2HlL/VtYneXsY/d7llNRUo3Bc/PonOgEUpNYM3i7ts9M3MSnkKYf7dLm648+MSeP/x2Ll01lz7Q==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
 
-  '@builder.io/qwik@https://codeload.github.com/QwikDev/qwik-build/tar.gz/ad7cc99c09c59882b4569c8d7c1d02543a7051f0':
-    resolution: {tarball: https://codeload.github.com/QwikDev/qwik-build/tar.gz/ad7cc99c09c59882b4569c8d7c1d02543a7051f0}
-    version: 1.5.7-dev20240622232135
+  '@builder.io/qwik@1.8.0':
+    resolution: {integrity: sha512-HM7X6h1NCfhyHt15NZYTF2PaNQmuc1gW6PzTzw2bNhpgBuD/RR/nE79HBXq13djQg6hHjaZpToJySToT9Q3u6w==}
     engines: {node: '>=16.8.0 <18.0.0 || >=18.11'}
     hasBin: true
-    peerDependencies:
-      undici: '*'
 
   '@emnapi/runtime@1.2.0':
     resolution: {integrity: sha512-bV21/9LQmcQeCPEg3BDFtvwL6cwiTMksYNWQQ4KOxCZikEGalWtenoZ0wCiukJINlGCIi2KXx01g4FoH/LxpzQ==}
@@ -1013,9 +1009,9 @@ packages:
     resolution: {integrity: sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==}
     engines: {node: '>= 4'}
 
-  imagetools-core@6.0.4:
-    resolution: {integrity: sha512-N1qs5qn7u9nR3kboISkYuvJm8MohiphCfBa+wx1UOropVaFis9/mh6wuDPLHJNhl6/64C7q2Pch5NASVKAaSrg==}
-    engines: {node: '>=12.0.0'}
+  imagetools-core@7.0.1:
+    resolution: {integrity: sha512-XDUx3Ac1VrZ4XF5eAJNYdHbFXRPNyebHFrwJsZ4WHb7X2MitOVW23cFphSDByT3MH5rdWdxKr4edSW2agChvDg==}
+    engines: {node: '>=18.0.0'}
 
   import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
@@ -1645,9 +1641,9 @@ packages:
   vfile@6.0.1:
     resolution: {integrity: sha512-1bYqc7pt6NIADBJ98UiG0Bn/CHIVOoZ/IyEkqIruLg0mE1BKzkOXY2D6CSqQIcKqgadppE5lrxgWXJmXd7zZJw==}
 
-  vite-imagetools@6.2.9:
-    resolution: {integrity: sha512-C4ZYhgj2vAj43/TpZ06XlDNP0p/7LIeYbgUYr+xG44nM++4HGX6YZBKAYpiBNgiCFUTJ6eXkRppWBrfPMevgmg==}
-    engines: {node: '>=12.0.0'}
+  vite-imagetools@7.0.4:
+    resolution: {integrity: sha512-C9C7b2p/8/TCN2g26tE9haoer2i8K4x0v2RXUiHsIjiz221vQuKItCQ+VyiVCsUMPXfJC/tlZsmCZVBz5jh7uA==}
+    engines: {node: '>=18.0.0'}
 
   vite-tsconfig-paths@4.3.2:
     resolution: {integrity: sha512-0Vd/a6po6Q+86rPlntHye7F31zA2URZMbH8M3saAZ/xR9QoGN/L21bxEGfXdWmFdNkqPpRdxFT7nmNe12e9/uA==}
@@ -1708,15 +1704,15 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zod@3.23.8:
-    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
+  zod@3.22.4:
+    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
 
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
 
 snapshots:
 
-  '@builder.io/qwik-city@https://codeload.github.com/QwikDev/qwik-city-build/tar.gz/8effe19b19d9c5ff7580c8d2f27dd6b8fa5f903a(@types/node@20.14.8)(rollup@4.18.0)':
+  '@builder.io/qwik-city@1.8.0(@types/node@20.14.8)(rollup@4.18.0)':
     dependencies:
       '@mdx-js/mdx': 3.0.1
       '@types/mdx': 2.0.13
@@ -1725,8 +1721,8 @@ snapshots:
       undici: 6.19.2
       vfile: 6.0.1
       vite: 5.3.1(@types/node@20.14.8)
-      vite-imagetools: 6.2.9(rollup@4.18.0)
-      zod: 3.23.8
+      vite-imagetools: 7.0.4(rollup@4.18.0)
+      zod: 3.22.4
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -1738,10 +1734,9 @@ snapshots:
       - supports-color
       - terser
 
-  '@builder.io/qwik@https://codeload.github.com/QwikDev/qwik-build/tar.gz/ad7cc99c09c59882b4569c8d7c1d02543a7051f0(@types/node@20.14.8)(undici@6.19.2)':
+  '@builder.io/qwik@1.8.0(@types/node@20.14.8)':
     dependencies:
       csstype: 3.1.3
-      undici: 6.19.2
       vite: 5.3.1(@types/node@20.14.8)
     transitivePeerDependencies:
       - '@types/node'
@@ -2786,9 +2781,7 @@ snapshots:
 
   ignore@5.3.1: {}
 
-  imagetools-core@6.0.4:
-    dependencies:
-      sharp: 0.33.4
+  imagetools-core@7.0.1: {}
 
   import-fresh@3.3.0:
     dependencies:
@@ -3689,10 +3682,11 @@ snapshots:
       unist-util-stringify-position: 4.0.0
       vfile-message: 4.0.2
 
-  vite-imagetools@6.2.9(rollup@4.18.0):
+  vite-imagetools@7.0.4(rollup@4.18.0):
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.18.0)
-      imagetools-core: 6.0.4
+      imagetools-core: 7.0.1
+      sharp: 0.33.4
     transitivePeerDependencies:
       - rollup
 
@@ -3742,6 +3736,6 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod@3.23.8: {}
+  zod@3.22.4: {}
 
   zwitch@2.0.4: {}
